@@ -8,7 +8,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(TestingMod.MOD_ID)
 public class TestingMod {
     public static final String MOD_ID = "testingmod";
-
     public TestingMod(){
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemInit.ITEMS.register(bus);
