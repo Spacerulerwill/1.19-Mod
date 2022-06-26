@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "YZY",
+    "XYX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Y": {
+      "item": "minecraft:gilded_blackstone"
+    },
+    "Z": {
+      "item": "minecraft:diamond_leggings"
+    }
+  },
+  "result": {
+    "item": "testingmod:gilded_diamond_leggings"
+  }
+}
