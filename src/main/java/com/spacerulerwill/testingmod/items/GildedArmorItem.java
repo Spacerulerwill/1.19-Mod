@@ -1,5 +1,6 @@
 package com.spacerulerwill.testingmod.items;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorItem;
@@ -14,5 +15,10 @@ public class GildedArmorItem extends ArmorItem {
     @Override
     public boolean makesPiglinsNeutral(ItemStack stack, LivingEntity wearer) {
         return true;
+    }
+
+    @Override
+    public Component getDescription() {
+        return Component.literal("Test");
     }
 }

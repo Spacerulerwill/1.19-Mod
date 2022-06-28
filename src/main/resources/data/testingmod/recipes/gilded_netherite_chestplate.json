@@ -13,10 +13,10 @@
       "item": "minecraft:gilded_blackstone"
     },
     "Z": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:netherite_chestplate"
     }
   },
   "result": {
-    "item": "testingmod:gilded_diamond_helmet"
+    "item": "testingmod:gilded_netherite_chestplate"
   }
 }

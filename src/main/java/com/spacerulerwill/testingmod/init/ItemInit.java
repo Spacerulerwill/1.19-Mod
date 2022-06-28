@@ -10,21 +10,25 @@ import net.minecraftforge.registries.RegistryObject;
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, TestingMod.MOD_ID);
 
-    // gilded diamond armor
-    public static final RegistryObject<Item> GILDED_DIAMOND_HELMET = ITEMS.register("gilded_diamond_helmet", () -> new GildedArmorItem(ArmorMaterialsInit.GILDED_DIAMOND, EquipmentSlot.HEAD,
+    // gilded netherite armor
+    public static final RegistryObject<Item> GILDED_NETHERITE_HELMET = ITEMS.register("gilded_netherite_helmet", () -> new GildedArmorItem(ArmorMaterialsInit.GILDED_NETHERITE, EquipmentSlot.HEAD,
             new Item.Properties()
                     .tab(CreativeModeTab.TAB_COMBAT)
+                    .fireResistant()
     ));
-    public static final RegistryObject<Item> GILDED_DIAMOND_CHESTPLATE = ITEMS.register("gilded_diamond_chestplate", () -> new GildedArmorItem(ArmorMaterialsInit.GILDED_DIAMOND, EquipmentSlot.CHEST,
+    public static final RegistryObject<Item> GILDED_NETHERITE_CHESTPLATE = ITEMS.register("gilded_netherite_chestplate", () -> new GildedArmorItem(ArmorMaterialsInit.GILDED_NETHERITE, EquipmentSlot.CHEST,
             new Item.Properties()
                     .tab(CreativeModeTab.TAB_COMBAT)
+                    .fireResistant()
     ));
-    public static final RegistryObject<Item> GILDED_DIAMOND_LEGGINGS = ITEMS.register("gilded_diamond_leggings", () -> new GildedArmorItem(ArmorMaterialsInit.GILDED_DIAMOND, EquipmentSlot.LEGS,
+    public static final RegistryObject<Item> GILDED_NETHERITE_LEGGINGS = ITEMS.register("gilded_netherite_leggings", () -> new GildedArmorItem(ArmorMaterialsInit.GILDED_NETHERITE, EquipmentSlot.LEGS,
             new Item.Properties()
                     .tab(CreativeModeTab.TAB_COMBAT)
+                    .fireResistant()
     ));
-    public static final RegistryObject<Item> GILDED_DIAMOND_BOOTS = ITEMS.register("gilded_diamond_boots", () -> new GildedArmorItem(ArmorMaterialsInit.GILDED_DIAMOND, EquipmentSlot.FEET,
+    public static final RegistryObject<Item> GILDED_NETHERITE_BOOTS = ITEMS.register("gilded_netherite_boots", () -> new GildedArmorItem(ArmorMaterialsInit.GILDED_NETHERITE, EquipmentSlot.FEET,
             new Item.Properties()
                     .tab(CreativeModeTab.TAB_COMBAT)
+                    .fireResistant()
     ));
 }

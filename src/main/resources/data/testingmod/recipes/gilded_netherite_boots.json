@@ -13,10 +13,10 @@
       "item": "minecraft:gilded_blackstone"
     },
     "Z": {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:netherite_boots"
     }
   },
   "result": {
-    "item": "testingmod:gilded_diamond_leggings"
+    "item": "testingmod:gilded_netherite_boots"
   }
 }

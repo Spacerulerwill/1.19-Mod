@@ -14,8 +14,8 @@ import net.minecraft.world.level.ItemLike;
 import java.util.function.Supplier;
 
 public enum ArmorMaterialsInit implements ArmorMaterial {
-    GILDED_DIAMOND("gilded_diamond", 33, new int[]{3, 6, 8, 3}, 25, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
-        return Ingredient.of(new ItemLike[]{Items.DIAMOND});
+    GILDED_NETHERITE("gilded_netherite", 37, new int[]{3, 6, 8, 3}, 25, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
+        return Ingredient.of(new ItemLike[]{Items.NETHERITE_INGOT});
     });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
@@ -28,7 +28,7 @@ public enum ArmorMaterialsInit implements ArmorMaterial {
     private final float knockbackResistance;
     private final LazyLoadedValue<Ingredient> repairIngredient;
 
-    private ArmorMaterialsInit(String p_40474_, int p_40475_, int[] p_40476_, int p_40477_, SoundEvent p_40478_, float p_40479_, float p_40480_, Supplier p_40481_) {
+    ArmorMaterialsInit(String p_40474_, int p_40475_, int[] p_40476_, int p_40477_, SoundEvent p_40478_, float p_40479_, float p_40480_, Supplier p_40481_) {
         this.name = p_40474_;
         this.durabilityMultiplier = p_40475_;
         this.slotProtections = p_40476_;
