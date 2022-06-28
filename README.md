@@ -7,4 +7,6 @@ This is a mod being created for learning purposes.
 
 ![Gilded Netherite](img/gildednetherite.png)
 
-Gilded Netherite Armor provides the protection of netherite, combined with the enchantability and piglin protection of gold armor
+Gilded Netherite Armor provides the protection of netherite, combined with the enchantability and piglin protection of gold armor and is crafted like so:
+
+![Gilded Netherite Recipe](img/gildednetheriterecipe.png)
