@@ -1,5 +1,6 @@
 package com.spacerulerwill.testingmod;
 
+import com.spacerulerwill.testingmod.init.EnchantmentInit;
 import com.spacerulerwill.testingmod.init.ItemInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -11,5 +12,6 @@ public class TestingMod {
     public TestingMod(){
         IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
         ItemInit.ITEMS.register(bus);
+        EnchantmentInit.ENCHANTMENTS.register(bus);
     }
 }

@@ -2,5 +2,7 @@
   "item.testingmod.gilded_netherite_helmet": "Gilded Netherite Helmet",
   "item.testingmod.gilded_netherite_chestplate": "Gilded Netherite Chestplate",
   "item.testingmod.gilded_netherite_leggings": "Gilded Netherite Leggings",
-  "item.testingmod.gilded_netherite_boots": "Gilded Netherite Boots"
+  "item.testingmod.gilded_netherite_boots": "Gilded Netherite Boots",
+
+  "enchantment.testingmod.leeching": "Leeching"
 }

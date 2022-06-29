@@ -6,6 +6,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.vehicle.Boat;
 
 public class GildedArmorItem extends ArmorItem {
     public GildedArmorItem(ArmorMaterial material, EquipmentSlot slot, Properties properties) {

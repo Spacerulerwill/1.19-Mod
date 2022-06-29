@@ -3,6 +3,7 @@ package com.spacerulerwill.testingmod.init;
 import com.spacerulerwill.testingmod.TestingMod;
 import com.spacerulerwill.testingmod.items.GildedArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.vehicle.Boat;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
