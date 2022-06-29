@@ -15,8 +15,6 @@ public class LeechingEnchantment extends Enchantment {
     public LeechingEnchantment(Rarity pRarity, EnchantmentCategory pCategory, EquipmentSlot... pApplicableSlots) {
         super(pRarity, pCategory, pApplicableSlots);
     }
-
-    @Override
     public void doPostAttack(LivingEntity pAttacker, Entity pEntity, int pLevel) {
         if (!pAttacker.level.isClientSide()){
             ServerLevel world = ((ServerLevel) pAttacker.level);

@@ -4,5 +4,7 @@
   "item.testingmod.gilded_netherite_leggings": "Gilded Netherite Leggings",
   "item.testingmod.gilded_netherite_boots": "Gilded Netherite Boots",
 
-  "enchantment.testingmod.leeching": "Leeching"
+  "enchantment.testingmod.leeching": "Leeching",
+  "enchantment.testingmod.molten": "Molten"
+
 }
