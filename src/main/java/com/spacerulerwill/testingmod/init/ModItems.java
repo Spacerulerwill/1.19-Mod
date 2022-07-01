@@ -1,7 +1,9 @@
 package com.spacerulerwill.testingmod.init;
 
 import com.spacerulerwill.testingmod.TestingMod;
-import com.spacerulerwill.testingmod.items.CrimsonWoodenPickaxe;
+import com.spacerulerwill.testingmod.items.CrimsonWoodAxe;
+import com.spacerulerwill.testingmod.items.CrimsonWoodPickaxe;
+import com.spacerulerwill.testingmod.items.CrimsonWoodSword;
 import com.spacerulerwill.testingmod.items.GildedArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -34,9 +36,21 @@ public class ModItems {
     ));
 
     //crimson tools
-    public static final RegistryObject<Item> CRIMSON_WOODEN_PICKAXE = ITEMS.register("crimson_wooden_pickaxe", () -> new CrimsonWoodenPickaxe(
-            ModTiers.CRIMSON,1, 0f, new Item.Properties()
+    public static final RegistryObject<Item> CRIMSON_WOOD_PICKAXE = ITEMS.register("crimson_wood_pickaxe", () -> new CrimsonWoodPickaxe(
+            ModTiers.CRIMSON, 1, -2.8f, new Item.Properties()
                     .tab(CreativeModeTab.TAB_TOOLS)
                     .fireResistant()
+    ));
+
+    public static final RegistryObject<Item> CRIMSON_WOOD_AXE = ITEMS.register("crimson_wood_axe", () -> new CrimsonWoodAxe(
+            ModTiers.CRIMSON, 6, -3.2f, new Item.Properties()
+            .tab(CreativeModeTab.TAB_TOOLS)
+            .fireResistant()
+    ));
+
+    public static final RegistryObject<Item> CRIMSON_WOOD_SWORD = ITEMS.register("crimson_wood_sword", () -> new CrimsonWoodSword(
+            ModTiers.CRIMSON, 3, -2.4f, new Item.Properties()
+            .tab(CreativeModeTab.TAB_COMBAT)
+            .fireResistant()
     ));
 }

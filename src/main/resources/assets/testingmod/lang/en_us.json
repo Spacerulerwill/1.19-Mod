@@ -4,7 +4,10 @@
   "item.testingmod.gilded_netherite_leggings": "Gilded Netherite Leggings",
   "item.testingmod.gilded_netherite_boots": "Gilded Netherite Boots",
 
-  "item.testingmod.crimson_wooden_pickaxe": "Crimson Wooden Pickaxe",
+  "item.testingmod.crimson_wood_pickaxe": "Crimson Wood Pickaxe",
+  "item.testingmod.crimson_wood_axe": "Crimson Wood Axe",
+  "item.testingmod.crimson_wood_sword": "Crimson Wood Sword",
+
 
   "enchantment.testingmod.leeching": "Leeching",
   "enchantment.testingmod.molten": "Molten"
