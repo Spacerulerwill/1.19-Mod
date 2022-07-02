@@ -1,10 +1,7 @@
 package com.spacerulerwill.testingmod.init;
 
 import com.spacerulerwill.testingmod.TestingMod;
-import com.spacerulerwill.testingmod.items.CrimsonWoodAxe;
-import com.spacerulerwill.testingmod.items.CrimsonWoodPickaxe;
-import com.spacerulerwill.testingmod.items.CrimsonWoodSword;
-import com.spacerulerwill.testingmod.items.GildedArmorItem;
+import com.spacerulerwill.testingmod.items.*;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
 import net.minecraftforge.registries.DeferredRegister;
@@ -43,7 +40,7 @@ public class ModItems {
     ));
 
     public static final RegistryObject<Item> CRIMSON_WOOD_AXE = ITEMS.register("crimson_wood_axe", () -> new CrimsonWoodAxe(
-            ModTiers.CRIMSON, 6, -3.2f, new Item.Properties()
+            ModTiers.CRIMSON, 6, -3.1f, new Item.Properties()
             .tab(CreativeModeTab.TAB_TOOLS)
             .fireResistant()
     ));
@@ -51,6 +48,18 @@ public class ModItems {
     public static final RegistryObject<Item> CRIMSON_WOOD_SWORD = ITEMS.register("crimson_wood_sword", () -> new CrimsonWoodSword(
             ModTiers.CRIMSON, 3, -2.4f, new Item.Properties()
             .tab(CreativeModeTab.TAB_COMBAT)
+            .fireResistant()
+    ));
+
+    public static final RegistryObject<Item> CRIMSON_WOOD_SHOVEL = ITEMS.register("crimson_wood_shovel", () -> new CrimsonWoodShovel(
+            ModTiers.CRIMSON, 0, -1f, new Item.Properties()
+            .tab(CreativeModeTab.TAB_TOOLS)
+            .fireResistant()
+    ));
+
+    public static final RegistryObject<Item> CRIMSON_WOOD_HOE = ITEMS.register("crimson_wood_hoe", () -> new CrimsonWoodHoe(
+            ModTiers.CRIMSON, 0, -1f, new Item.Properties()
+            .tab(CreativeModeTab.TAB_TOOLS)
             .fireResistant()
     ));
 }

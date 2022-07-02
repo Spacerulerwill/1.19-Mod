@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "testingmod:items/crimson_wood_pickaxe"
+    "layer0": "testingmod:items/crimson_wood_hoe"
   }
 }

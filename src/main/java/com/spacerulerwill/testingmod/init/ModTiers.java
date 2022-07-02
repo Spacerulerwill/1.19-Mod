@@ -10,7 +10,6 @@ import net.minecraftforge.common.ForgeTier;
 
 
 public class ModTiers {
-
     public static final ForgeTier CRIMSON = new ForgeTier(
-            1, 59, 2.0F, 0.0F, 15, BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(new ItemLike[]{Items.CRIMSON_PLANKS}) );
+            2, 250, 6.0F, 2.0F, 20, BlockTags.NEEDS_STONE_TOOL, () -> Ingredient.of(new ItemLike[]{Items.CRIMSON_PLANKS}) );
 }
