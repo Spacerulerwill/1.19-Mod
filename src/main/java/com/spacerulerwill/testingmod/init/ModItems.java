@@ -58,7 +58,7 @@ public class ModItems {
     ));
 
     public static final RegistryObject<Item> CRIMSON_WOOD_HOE = ITEMS.register("crimson_wood_hoe", () -> new CrimsonWoodHoe(
-            ModTiers.CRIMSON, 0, -1f, new Item.Properties()
+            ModTiers.CRIMSON, -2, -1f, new Item.Properties()
             .tab(CreativeModeTab.TAB_TOOLS)
             .fireResistant()
     ));
